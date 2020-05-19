@@ -1,0 +1,227 @@
+body{
+    font-family: 'Titillium Web' , sans-serif;
+}
+/*Aquí empieza el navbar*/
+.navbar {
+     background-color: #98F478;
+     box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .05);
+     min-height: 100px;
+}
+
+.nav-link{color: seagreen;}
+.nav-link:hover {color: seagreen;}
+.nav-link{font-size: 19px;}
+
+.navbar-toggler { font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+
+.logo-brand {
+    min-width: 150px; 
+    max-width: 150px;
+}
+
+.logo-brand2 {
+    min-width: 100px; 
+    max-width: 100px;
+}
+
+.navbar-toggler {font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.content-center{
+     max-width: 800px;
+     margin: 0 auto 60px auto;
+     text-align: center;
+}
+
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+    
+}
+
+.portafolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portafolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portafolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: auto;
+}
+
+.portafolio-details h2{
+    margin-bottom: 0px;   
+}
+
+.portafolio-details a h2, .portafolio-details a p{
+    color: #ffffff;
+}
+
+
+h2 { font-size: 30px; margin-bottom: 20px; }
+h3 { font-size: 42px; margin-bottom: 15px;}
+
+h5 {margin-bottom: 0px;}
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.bg-light-gray {
+    background-color: #DFFFD4;
+}
+
+section {
+    padding: 150px 0;
+}
+
+/* Aquí está la organización del texto del index*/
+
+h1 { font-size: 50px; margin-bottom: 30px;}
+h4 { font-size: 43px; margin-bottom: 10px;}
+h6 { font-size: 50px; padding: 75px 10px 15px 75px; text-align: center;}
+
+.visión{
+    padding: 85px;
+    text-align: justify;
+    background-color: #D7E7D2;
+}
+
+.parrafo {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.p9{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 10px 75px 75px 10px;
+}
+
+.img {
+    padding: 75px 75px 15px 75px;
+    width: 100%;
+}
+
+.map {
+    padding: 75px;
+    width: 425px;
+    height: 400px;
+    width: 100%;
+}
+
+/* Aquí está la organización de los mienbros de la empresa en el index*/
+
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details {
+    position: absolute;
+    color: #FFF9D7;
+    bottom: 0px;
+    left: 20px;
+
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details ion-icon{
+    padding: 0 5px;
+}
+
+a ion-icon {
+    font-size: 22px; color: #FFF9D7;
+}
+
+.servicio-container{
+    margin: 150x 0;
+}
+
+.plan{
+    padding: 30px 50px;
+    border-radius: 2px;
+    width: auto;
+}
+
+.plan-light{
+    background-color: #CBFEBA;
+    border: 2px solid green;
+    color: #000000;
+}
+
+.color{
+    background-color: #CBFEBA;
+}
+
+.topmargin-x5{
+    text-align: justify;
+}
+
+.btn-dark{
+    background-color: #99FE75;
+    color: #000000;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.bg{ background-color: #617D57 !important;}
+
+#footer{
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a{
+    color: #ffffff;
+}
+
+#footer a:hover{
+    color: #ffffff;
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 13px 15px;
+}
+
+a[href^="tel:"]:before {
+    content: "";
+    display: block;
+    margin-right: 2px;
+    padding: 10px;
+}
+
+@media (min-width: 575.98px)
+     {.plan {min-width: unset; padding: 40px;}
+    .portafolio-details h2{font-size: 32px;}
+  
+}
+
+
+ 
